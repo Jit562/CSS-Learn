@@ -1,0 +1,94 @@
+/* color add method */
+
+/* body{
+    color:aliceblue;
+    color: rgb(red, green, blue);
+    color: rgb(255, 255, 255);
+    color:rgba(red, green, blue, alpha);
+    color: #fff;
+    color: hsl(hue, saturation, lightness);
+    color:hsl(180, 50%, 50%, 50%);
+    color: hsla(hue, saturation, lightness, alpha);
+    color: hwb(hue white black);
+
+} */
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption{
+    background-color: blueviolet;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+th{
+    background-color: rgba(252, 110, 8, 0.555);
+    border: none;
+}
+
+td{
+    text-align: center;
+    background-color: rgba(8, 252, 65, 0.374);
+    border: none;
+}
+img{
+    height: 70px;
+}
+
+tr:hover{
+    background-color: rgb(183, 236, 8);
+    color: azure;
+}
+
+@media screen and (max-width:640px)  and (min-width: 429px){
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td{
+       font-size: 15px;
+    }
+    img{
+        height:1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:430px)  and (min-width: 279px){
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td{
+       font-size: 12px;
+    }
+    img{
+        height:1rem;
+    }
+    
+}
+
+@media screen and (max-width:820px)  and (min-width: 641px){
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th,td{
+       font-size: 18px;
+       
+    }
+    img{
+        height:3rem;
+    }
+    
+}

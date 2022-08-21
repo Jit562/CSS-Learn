@@ -1,0 +1,55 @@
+/* 3 type of css 
+
+1. Inline css (apply css in html tag like as <p style="color:red;">isthhjj</p> ) Highest priority 1st
+2. Internal css (apply css in html html file like as <style>{color:red;}</style> ) 2nd priority
+3. External css  3rd priority
+
+*/
+
+/* css method 
+
+1. html tag
+2. id ( id use in css for only one time of one tag this is a unique )
+3. class ( apply all tag )
+
+*/
+
+
+/* 3rd priority External css  
+
+
+ tage css
+
+body{
+    background-color: antiquewhite;
+}
+
+ class css
+
+.h2css{
+    background-color: aqua;
+    color: azure;
+}
+.pcss{
+    background-color: blue;
+    color: aliceblue;
+}
+
+id css 
+
+#hcss{
+    background-color: aqua;
+    color: azure;
+}
+#pcss{
+    background-color: blue;
+    color: aliceblue;
+}
+
+
+*/
+
+
+
+
+

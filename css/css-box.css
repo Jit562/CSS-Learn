@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    /*..................
+    border:4px solid blue; 
+    border-color: aqua; 
+    border-style: solid; 
+    border-radius: 2px solid rgb(43, 4, 235); 
+    border-bottom: 5px solid red;
+    border-top: 5px solid yellow; 
+    border-left: 10px;
+    border-right: 20px; 
+    border-width: 50px;  
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+
+    padding: 50px;
+
+    margin: 40px;
+
+    ...............*/
+    margin: 40px;
+
+} 
+
+p{
+    /* ....................
+    display: none; element of hide and element space is also remove 
+    visibility: hidden;  element of hide and element space is not remove  
+    display: inline;  element one line show 
+    display: block;  element is show in block 
+    overflow: hidden;
+    overflow: scroll;
+
+     ...........................*/
+    opacity: inherit; 
+}
+
+#postion{
+    background-color: blueviolet;
+    /* position: absolute; */
+    /* position: relative; */
+    /* position: fixed; */
+    /* position: static; */
+    /* position: sticky; */
+    top: 10px;
+    left: 30px;
+}
