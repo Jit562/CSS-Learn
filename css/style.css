@@ -1,3 +1,9 @@
+/* ................
+Referance
+https://devdocs.io/ 
+...........................*/
+
+
 /* 3 type of css 
 
 1. Inline css (apply css in html tag like as <p style="color:red;">isthhjj</p> ) Highest priority 1st
@@ -8,9 +14,18 @@
 
 /* css method 
 
-1. html tag
-2. id ( id use in css for only one time of one tag this is a unique )
-3. class ( apply all tag )
+selector
+
+1. html tag // elementor selecotr
+2. id // id selector uqiue
+3. class // class selector
+4. * // universal selector
+5. p, h, #id, .class // group selector
+6. decender or child selector
+   1. #id p{} // under tag
+   2. #id > p{} // under tag
+   3. #id + p{} // after tag
+   4. #id~p{} // general
 
 */
 
